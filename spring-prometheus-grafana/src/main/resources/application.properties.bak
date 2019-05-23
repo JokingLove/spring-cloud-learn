@@ -1,0 +1,6 @@
+server.port= 8080
+
+spring.application.name = spring-prometheus-grafana
+
+management.endpoints.web.exposure.include= 'prometheus'
+management.metrics.tags.application = ${spring.application.name}
