@@ -1,6 +1,7 @@
 package com.ikang.repository;
 
 import com.ikang.entity.Customer;
+import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -15,7 +16,7 @@ public interface CustomerRepository extends MongoRepository<Customer, String> {
 
     public List<Customer> findByFirstNameAndLastName(String firstName, String lastName);
 
-    @Query("SELECT * from customer u where u.firstName=:firstName")
-    Customer test(@Param("firstName") String firstName);
+/*    @Query("SELECT * from customer u where u.firstName=:firstName")
+    Customer test(@Param("firstName") String firstName);*/
 
 }

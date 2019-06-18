@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri May 31 17:23:26 CST 2019
+cxf-core-3.2.6.jar>alimaven=
+cxf-core-3.2.6.pom>public-mirror=
+cxf-core-3.2.6.jar>public-mirror=
